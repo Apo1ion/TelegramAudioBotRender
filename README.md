@@ -1,5 +1,6 @@
-# TelegramAudioBotRender
-Telegram-бот для извлечения аудио из видео. Бот принимает ссылки на видео с YouTube, VK, Rutube и других сайтов, а также видеофайлы напрямую из Telegram, после чего скачивает видео, отделяет аудиодорожку и отправляет пользователю готовый MP3-файл с оригинальным названием видео.
+# Telegram Audio Bot
+
+Бот принимает ссылку на видео или само видео и отправляет mp3-аудио дорожку.
 
 ## Что внутри
 
@@ -31,4 +32,3 @@ python bot.py
 docker build -t telegram-audio-bot .
 docker run -e BOT_TOKEN=твой_токен_бота -p 10000:10000 telegram-audio-bot
 ```
-Бот поднят через Render: https://render.com
