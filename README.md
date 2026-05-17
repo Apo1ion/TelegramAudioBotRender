@@ -31,3 +31,4 @@ python bot.py
 docker build -t telegram-audio-bot .
 docker run -e BOT_TOKEN=твой_токен_бота -p 10000:10000 telegram-audio-bot
 ```
+Бот поднят через Render: https://dashboard.render.com/login
